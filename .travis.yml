@@ -1,8 +1,5 @@
 group: travis_latest
 language: python
-cache:
-  directories:
-    - $HOME/.cache/pip
 matrix:
     include:
         - python: 3.4
